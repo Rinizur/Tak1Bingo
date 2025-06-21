@@ -1,0 +1,1641 @@
+{
+  "version": "1.0.0",
+  "game": "Tak and the Power of Juju",
+  "objectives": [
+    {
+      "goal": "Defeat all Nerbils in the last Sun Temple room",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies"
+      ],
+      "line_categories": [
+        "suntemple"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Collect {{X}} Juju Powerups",
+      "range": [
+        9,
+        10,
+        11
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Use both Teleporters in DR",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "shrines"
+      ],
+      "line_categories": [
+        "dryrockcanyon"
+      ],
+      "tooltip": "DR - Dryrock Canyon",
+      "icons": []
+    },
+    {
+      "goal": "Break all destructibles in the Mummy King's room",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "items"
+      ],
+      "line_categories": [
+        "burialgrounds"
+      ],
+      "tooltip": "Located in Burial Grounds, where you would usually obtain the staff",
+      "icons": []
+    },
+    {
+      "goal": "Strike a Looptail monkey in {{X}} Unique Levels",
+      "range": [
+        3,
+        4,
+        5
+      ],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Dance at {{X}} Juju Shrines",
+      "range": [
+        3,
+        4,
+        5
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "shrines"
+      ],
+      "line_categories": [],
+      "tooltip": "Press Y at a shrine without a tiki in your inventory",
+      "icons": []
+    },
+    {
+      "goal": "Strike {{X}} Looptail monkeys with the Spirit Rattle",
+      "range": [
+        4,
+        5,
+        6
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "animals"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Jump on {{X}} Unique Lanterns in LTV",
+      "range": [
+        10,
+        15,
+        20
+      ],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [
+        "lowertreevillage"
+      ],
+      "tooltip": "LTV - Lower Tree Village",
+      "icons": []
+    },
+    {
+      "goal": "Jump on {{X}} Unique lamps in UTV",
+      "range": [
+        8,
+        10,
+        12,
+        14
+      ],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [
+        "uppertreevillage"
+      ],
+      "tooltip": "UTV - Upper Tree Village",
+      "icons": []
+    },
+    {
+      "goal": "Reach 0 HP in Water and Lava",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies"
+      ],
+      "line_categories": [
+        "mummytombs",
+        "chickenisland",
+        "chickenislandwest"
+      ],
+      "tooltip": "Lava found in Mummy Tombs - Jellyfish found in Chicken Island and Chicken Island West",
+      "icons": []
+    },
+    {
+      "goal": "Reach 0 HP from a dart in Mummy Tombs",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies"
+      ],
+      "line_categories": [
+        "mummytombs"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Bounce on {{X}} Spider-Web Trampolines",
+      "range": [
+        3,
+        4,
+        5
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "areacompletion"
+      ],
+      "line_categories": [
+        "burialgrounds",
+        "mummytombs"
+      ],
+      "tooltip": "Located in Burial Grounds and Mummy Tombs",
+      "icons": []
+    },
+    {
+      "goal": "Raise {{X}} Pillars in MTN",
+      "range": [
+        2,
+        3,
+        4
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "areacompletion"
+      ],
+      "line_categories": [
+        "mountaintopnorth"
+      ],
+      "tooltip": "MTN - Mountain Top North",
+      "icons": []
+    },
+    {
+      "goal": "Open all 3 doors in TV",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "shrines"
+      ],
+      "line_categories": [
+        "taksvillage"
+      ],
+      "tooltip": "TV - Tak's Village",
+      "icons": []
+    },
+    {
+      "goal": "Throw a sheep into the void in {{X}} Unique Levels",
+      "range": [
+        2,
+        3,
+        4
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "animals"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Collect a Large Nerbil Spirit",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies"
+      ],
+      "line_categories": [],
+      "tooltip": "Requires Spirit Sight",
+      "icons": []
+    },
+    {
+      "goal": "Reach 0 HP from an attack from a Skull Spirit",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies"
+      ],
+      "line_categories": [
+        "spiritworld"
+      ],
+      "tooltip": "Located in Spirit World",
+      "icons": []
+    },
+    {
+      "goal": "Defeat a Large Nerbil with Thunder Strike",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies",
+        "powers"
+      ],
+      "line_categories": [
+        "mountaintop"
+      ],
+      "tooltip": "Thunder Strike located in Mountain Top",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in Sun Temple",
+      "range": [
+        3,
+        4,
+        5
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "suntemple"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in DR",
+      "range": [
+        6,
+        7,
+        8
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "dryrockcanyon"
+      ],
+      "tooltip": "DR - Dryrock Canyon",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in LTV",
+      "range": [
+        5,
+        6,
+        7
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "lowertreevillage"
+      ],
+      "tooltip": "LTV - Lower Tree Village",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in MT",
+      "range": [
+        4,
+        5,
+        6
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "mountaintop"
+      ],
+      "tooltip": "MT - Mountain Top",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in Mummy Tombs",
+      "range": [
+        3,
+        4,
+        5
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "mummytombs"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Enter {{X}} Unique Spirit Wells",
+      "range": [
+        3,
+        4,
+        5
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "shrines"
+      ],
+      "line_categories": [
+        "spiritworld"
+      ],
+      "tooltip": "Located in Spirit World",
+      "icons": []
+    },
+    {
+      "goal": "Spin {{X}} Cranks",
+      "range": [
+        1,
+        2
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "items"
+      ],
+      "line_categories": [
+        "mountaintop",
+        "mountaintopnorth"
+      ],
+      "tooltip": "Located in Mountain Top and Mountain Top North",
+      "icons": []
+    },
+    {
+      "goal": "Hold a balloon",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "items"
+      ],
+      "line_categories": [
+        "spiritworld"
+      ],
+      "tooltip": "Located in Spirit World",
+      "icons": []
+    },
+    {
+      "goal": "Get Transformed into a Nerbil by {{X}} Nerbil Spirits",
+      "range": [
+        3,
+        4,
+        5
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies"
+      ],
+      "line_categories": [
+        "spiritworld"
+      ],
+      "tooltip": "Located in Spirit World",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in CIW",
+      "range": [
+        19,
+        20,
+        21
+      ],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "CIW - Chicken Island West",
+      "icons": []
+    },
+    {
+      "goal": "Destroy all 9 Nerbil Nests in UTV",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies"
+      ],
+      "line_categories": [
+        "uppertreevillage"
+      ],
+      "tooltip": "UTV - Upper Tree Village (Note: 1 Nerbil nest on ceiling of orangutan puzzle room)",
+      "icons": []
+    },
+    {
+      "goal": "Destroy all 7 Nerbil Nests in LTV",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies"
+      ],
+      "line_categories": [
+        "lowertreevillage"
+      ],
+      "tooltip": "LTV - Lower Tree Village",
+      "icons": []
+    },
+    {
+      "goal": "Make 2 Looptail Monkeys attack each other",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "animals"
+      ],
+      "line_categories": [
+        "lowertreevillage"
+      ],
+      "tooltip": "Can be accomplished in Lower Tree VIllage",
+      "icons": []
+    },
+    {
+      "goal": "Strike {{X}} Gongs",
+      "range": [
+        2,
+        3
+      ],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Located in Chicken Island, Drycock Canyon, and Mountain Top",
+      "icons": []
+    },
+    {
+      "goal": "Defeat a Nerbil with Fire Acorns",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies",
+        "items"
+      ],
+      "line_categories": [
+        "dryrockcanyon"
+      ],
+      "tooltip": "Fire Acorns located in Dryrock Canyon",
+      "icons": []
+    },
+    {
+      "goal": "Hold {{X}} Unique Objects",
+      "range": [
+        2,
+        3,
+        4
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "items"
+      ],
+      "line_categories": [],
+      "tooltip": "Includes Melons, Coconuts, Fish, Balloon",
+      "icons": []
+    },
+    {
+      "goal": "Collect {{X}} Mana",
+      "range": [
+        150,
+        200,
+        250
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "items"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Collect {{X}} Mana",
+      "range": [
+        400,
+        450,
+        500
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "items"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Ride Ziplines in {{X}} Unique Levels",
+      "range": [
+        3,
+        4,
+        5
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "items"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Transform a Striped Nerbil into a chicken",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies"
+      ],
+      "line_categories": [
+        "chickenislandwest"
+      ],
+      "tooltip": "Note to self - specified nerbel so this wasn't immediately gotten after collecting Conversion due to immediate nerbils",
+      "icons": []
+    },
+    {
+      "goal": "Hold a Fish",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "animals"
+      ],
+      "line_categories": [
+        "mountaintop"
+      ],
+      "tooltip": "Located in Mountain Top - Requires an explosion",
+      "icons": []
+    },
+    {
+      "goal": "Destroy a Nerbil Nest in {{X}} Unique Levels",
+      "range": [
+        2,
+        3,
+        4
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Be launched by {{X}} Unique Orangutans",
+      "range": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "animals"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Distract {{X}} Unique Rams",
+      "range": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "animals"
+      ],
+      "line_categories": [],
+      "tooltip": "Can be distracted with Melons or Sheep",
+      "icons": []
+    },
+    {
+      "goal": "Defeat {{X}} Types of Nerbils",
+      "range": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies"
+      ],
+      "line_categories": [],
+      "tooltip": "Types: Purple, Striped, Melon, Flying, Exploding, and Large",
+      "icons": []
+    },
+    {
+      "goal": "All 12 Nubu Plants",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "plants"
+      ],
+      "line_categories": [
+        "lowertreevillage",
+        "dryrockcanyon",
+        "burialgrounds",
+        "chickenisland"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in UTV",
+      "range": [
+        12,
+        13,
+        14
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "uppertreevillage"
+      ],
+      "tooltip": "UTV - Upper Tree Village",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in UTV",
+      "range": [
+        4,
+        5,
+        6
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "uppertreevillage"
+      ],
+      "tooltip": "UTV - Upper Tree Village",
+      "icons": []
+    },
+    {
+      "goal": "Defeat {{X}} Unique Large Nerbils",
+      "range": [
+        3,
+        4,
+        5
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "enemies"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Collect {{X}} Unique Juju Spells",
+      "range": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Grab Melon from {{X}} Unique Melon Spawners",
+      "range": [
+        3,
+        4,
+        5
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "items"
+      ],
+      "line_categories": [
+        "lowertreevillage",
+        "chickenisland",
+        "mountaintopnorth",
+        "mountaintop"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Return Lok's Spirit",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "areacompletion",
+        "items"
+      ],
+      "line_categories": [
+        "spiritworld"
+      ],
+      "tooltip": "Complete Spirit World",
+      "icons": []
+    },
+    {
+      "goal": "Collect {{X}} Moonstones",
+      "range": [
+        1,
+        2
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "moonstone",
+        "post100yorbels"
+      ],
+      "line_categories": [
+        "mountaintopnorth",
+        "suntemple",
+        "chickentemple"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Collect the Snowboard",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "items"
+      ],
+      "line_categories": [
+        "mountaintop"
+      ],
+      "tooltip": "Located in Mountain Top",
+      "icons": []
+    },
+    {
+      "goal": "Place {{X}} Sheep on treadmills",
+      "range": [
+        2,
+        3,
+        4
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "animals"
+      ],
+      "line_categories": [
+        "lowertreevillage",
+        "uppertreevillage"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Activate {{X}} Teleporters",
+      "range": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "shrines"
+      ],
+      "line_categories": [],
+      "tooltip": "EXCLUDE Tak's Village Teleporter",
+      "icons": []
+    },
+    {
+      "goal": "Knock the hair off of an Orangutan",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "animals"
+      ],
+      "line_categories": [],
+      "tooltip": "Requires explosion",
+      "icons": []
+    },
+    {
+      "goal": "Mount {{X}} Unique Rhinos",
+      "range": [
+        2,
+        3,
+        4
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "animals"
+      ],
+      "line_categories": [
+        "dryrockcanyon",
+        "taksvillage",
+        "spiritworld",
+        "mountaintop"
+      ],
+      "tooltip": "EXCLUDE Tutorial Rhino",
+      "icons": []
+    },
+    {
+      "goal": "Mount an Ostrich",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "animals"
+      ],
+      "line_categories": [
+        "dryrockcanyon",
+        "mountaintop"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Collect {{X}} Tikis",
+      "range": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "shrines"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Collect both Acorn Powerups",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "items"
+      ],
+      "line_categories": [
+        "lowertreevillage",
+        "dryrockcanyon"
+      ],
+      "tooltip": "Located in Lower Tree Village and Dryrock",
+      "icons": []
+    },
+    {
+      "goal": "Collect {{X}} Unique Juju Spells",
+      "range": [
+        4,
+        5,
+        6
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Collect the Sandboard",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "items"
+      ],
+      "line_categories": [
+        "taksvillage"
+      ],
+      "tooltip": "Located in Tak's Village",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Total Yorbels",
+      "range": [
+        50,
+        55,
+        60
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Total Yorbels",
+      "range": [
+        80,
+        85,
+        90
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Total Yorbels",
+      "range": [
+        20,
+        25,
+        30
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Collect 1 Nubu Plant from {{X}} Levels",
+      "range": [
+        2,
+        3,
+        4
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "plants"
+      ],
+      "line_categories": [
+        "lowertreevillage",
+        "dryrockcanyon",
+        "burialgrounds",
+        "chickenisland"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in Powder Canyon",
+      "range": [
+        4,
+        5,
+        6,
+        3
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "powdercanyon"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Collect Mana Pouch",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [
+        "powdercanyon"
+      ],
+      "tooltip": "Located in Powder Canyon",
+      "icons": []
+    },
+    {
+      "goal": "Collect Crazy Feet",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [
+        "numadunes"
+      ],
+      "tooltip": "Located in Numa Dunes",
+      "icons": []
+    },
+    {
+      "goal": "Collect CT Moonstone",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "moonstone",
+        "areacompletion",
+        "post100yorbels"
+      ],
+      "line_categories": [
+        "chickentemple"
+      ],
+      "tooltip": "CT - Chicken Temple",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in CT",
+      "range": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels",
+        "post100yorbels"
+      ],
+      "line_categories": [
+        "chickentemple"
+      ],
+      "tooltip": "CT - Chicken Temple",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in Numa Dunes",
+      "range": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "numadunes"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Enter {{X}} Chicken Suit Outhouses",
+      "range": [
+        2,
+        3,
+        4
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "items"
+      ],
+      "line_categories": [
+        "chickenislandwest"
+      ],
+      "tooltip": "Located in Chicken Island West",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in CIW",
+      "range": [
+        10,
+        11,
+        12
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "chickenislandwest"
+      ],
+      "tooltip": "CIW - Chicken Island West",
+      "icons": []
+    },
+    {
+      "goal": "Collect Conversion and Warp Mastery",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers",
+        "areacompletion"
+      ],
+      "line_categories": [
+        "chickenislandwest"
+      ],
+      "tooltip": "Located in Chicken Island West",
+      "icons": []
+    },
+    {
+      "goal": "All Yorbels in CI",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "chickenisland"
+      ],
+      "tooltip": "CI - Chicken Island",
+      "icons": []
+    },
+    {
+      "goal": "Collect Eagle Eye",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [
+        "chickenisland"
+      ],
+      "tooltip": "Located in Chicken Island",
+      "icons": []
+    },
+    {
+      "goal": "Collect Sun Temple Moonstone",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "moonstone",
+        "areacompletion"
+      ],
+      "line_categories": [
+        "suntemple"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "All Yorbels in Sun Temple",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "suntemple"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Collect Summon Coconut",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [
+        "suntemple"
+      ],
+      "tooltip": "Located in Sun Temple",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in Dryrock Caverns",
+      "range": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "caverns"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Yorbels in Dryrock Caverns",
+      "range": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "caverns"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "Collect Stunner",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers",
+        "areacompletion"
+      ],
+      "line_categories": [
+        "caverns"
+      ],
+      "tooltip": "Located in Dryrock Caverns. Requires completing all 3 caverns",
+      "icons": []
+    },
+    {
+      "goal": "All Yorbels in DRC",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "caverns"
+      ],
+      "tooltip": "DRC - Dryrock Caverns",
+      "icons": []
+    },
+    {
+      "goal": "All Yorbels in DR",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "dryrockcanyon"
+      ],
+      "tooltip": "DR - Dryrock",
+      "icons": []
+    },
+    {
+      "goal": "Collect Longer Life",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [
+        "dryrockcanyon"
+      ],
+      "tooltip": "Located in Dryrock",
+      "icons": []
+    },
+    {
+      "goal": "Collect MTN Moonstone",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "moonstone",
+        "areacompletion"
+      ],
+      "line_categories": [
+        "mountaintopnorth"
+      ],
+      "tooltip": "MTN - Mountain Top North",
+      "icons": []
+    },
+    {
+      "goal": "All Yorbels in MTN",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "mountaintopnorth"
+      ],
+      "tooltip": "MTN - Mountain Top North",
+      "icons": []
+    },
+    {
+      "goal": "Collect Summon Melon",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [
+        "mountaintopnorth"
+      ],
+      "tooltip": "Located in Mountain Top North",
+      "icons": []
+    },
+    {
+      "goal": "All Yorbels in MT",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "mountaintop"
+      ],
+      "tooltip": "MT - Mountain Top",
+      "icons": []
+    },
+    {
+      "goal": "Collect Thunder Strike",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [
+        "mountaintop"
+      ],
+      "tooltip": "Located in Mountain Top",
+      "icons": []
+    },
+    {
+      "goal": "All Yorbels in UTV",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "uppertreevillage"
+      ],
+      "tooltip": "UTV - Upper Tree Village",
+      "icons": []
+    },
+    {
+      "goal": "Collect Spirit Strike",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [
+        "uppertreevillage"
+      ],
+      "tooltip": "Located in Upper Tree Village",
+      "icons": []
+    },
+    {
+      "goal": "Collect Spirit Call",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [
+        "lowertreevillage"
+      ],
+      "tooltip": "Located in Lower Tree Village",
+      "icons": []
+    },
+    {
+      "goal": "All Yorbels in LTV",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "lowertreevillage"
+      ],
+      "tooltip": "LTV - Lower Tree Village",
+      "icons": []
+    },
+    {
+      "goal": "Collect Juju Compass",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [
+        "spiritworld"
+      ],
+      "tooltip": "Located in Spirit World",
+      "icons": []
+    },
+    {
+      "goal": "All Yorbels in SW",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "plants"
+      ],
+      "line_categories": [
+        "spiritworld"
+      ],
+      "tooltip": "SW - Spirit World",
+      "icons": []
+    },
+    {
+      "goal": "Reach the end of {{X}} Tombs in Mummy Tombs",
+      "range": [
+        2,
+        3,
+        4
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "areacompletion"
+      ],
+      "line_categories": [
+        "mummytombs"
+      ],
+      "tooltip": "Press the button that usually opens the doors to the mummies in Mummy Tombs",
+      "icons": []
+    },
+    {
+      "goal": "Collect Spirit Sight",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [
+        "mummytombs"
+      ],
+      "tooltip": "Located in Mummy Tombs",
+      "icons": []
+    },
+    {
+      "goal": "Collect All Yorbels in Mummy Tombs",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "mummytombs"
+      ],
+      "tooltip": "",
+      "icons": []
+    },
+    {
+      "goal": "All Yorbels in BG",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "burialgrounds"
+      ],
+      "tooltip": "BG - Burial Grounds",
+      "icons": []
+    },
+    {
+      "goal": "Collect Restoration Dance",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [
+        "burialgrounds"
+      ],
+      "tooltip": "Located in Burial Grounds",
+      "icons": []
+    },
+    {
+      "goal": "All Yorbels in TV",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "yorbels"
+      ],
+      "line_categories": [
+        "taksvillage"
+      ],
+      "tooltip": "TV - Tak's Village",
+      "icons": []
+    },
+    {
+      "goal": "Collect Mana Magnet",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "powers"
+      ],
+      "line_categories": [
+        "taksvillage"
+      ],
+      "tooltip": "Located in Tak's Village",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Plants in CI",
+      "range": [
+        1,
+        2,
+        3
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "plants"
+      ],
+      "line_categories": [
+        "chickenisland"
+      ],
+      "tooltip": "CI - Chicken Island",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Plants in BG",
+      "range": [
+        1,
+        2,
+        3
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "plants"
+      ],
+      "line_categories": [
+        "burialgrounds"
+      ],
+      "tooltip": "BG - Burial Grounds",
+      "icons": []
+    },
+    {
+      "goal": "Guide {{X}} Orangutans to a different tree",
+      "range": [
+        3,
+        4,
+        5
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "animals"
+      ],
+      "line_categories": [],
+      "tooltip": "Cause separate orangutans to move to different trees than their initial tree",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Plants in DR",
+      "range": [
+        1,
+        2,
+        3
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "plants"
+      ],
+      "line_categories": [
+        "dryrockcanyon"
+      ],
+      "tooltip": "DR - Dryrock Canyon",
+      "icons": []
+    },
+    {
+      "goal": "{{X}} Plants in LTV",
+      "range": [
+        1,
+        2,
+        3
+      ],
+      "individual_limit": 1,
+      "board_categories": [
+        "plants"
+      ],
+      "line_categories": [
+        "lowertreevillage"
+      ],
+      "tooltip": "LTV - Lower Tree Village",
+      "icons": []
+    }
+  ],
+  "limits": {
+    "board": {
+      "plants": 40,
+      "yorbels": 50,
+      "items": 25,
+      "enemies": 40,
+      "powers": 50,
+      "areacompletion": 25,
+      "shrines": 30,
+      "moonstone": 10,
+      "animals": 50,
+      "post100yorbels": 0
+    },
+    "line": {
+      "lowertreevillage": 25,
+      "dryrockcanyon": 25,
+      "taksvillage": 25,
+      "burialgrounds": 25,
+      "mummytombs": 25,
+      "spiritworld": 25,
+      "uppertreevillage": 25,
+      "caverns": 25,
+      "mountaintop": 25,
+      "mountaintopnorth": 25,
+      "numadunes": 10,
+      "powdercanyon": 10,
+      "suntemple": 25,
+      "chickenisland": 25,
+      "chickenislandwest": 25,
+      "chickentemple": 10
+    }
+  }
+}
