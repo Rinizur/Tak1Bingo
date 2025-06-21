@@ -14,6 +14,7 @@ If you have any questions, you can send me a DM on Discord or leave a comment on
 2. Navigate to https://beta.lockout.live/editor and select **Import JSON File**
 3. Select the extracted .json file and click the **Play** button in the top-right corner
 4. Customize your bingo settings and select **Load**
+![lockoutlive](screenshots/lockoutlive.png)
 
 **Import Saves:**
 
@@ -21,6 +22,8 @@ If you have any questions, you can send me a DM on Discord or leave a comment on
 2. Ensure your primary memory card is selected and click the **Import** button
 3. Import either both or your desired bingo save file and close this menu 
 4. Note that slot B will be the Bingo file with no teleporters/no crazy feet, and slot C will be the Bingo file with teleporters and crazy feet
+![Dolphin1](screenshots/dolphin1.png)
+![Dolphin2](screenshots/dolphin2.png)
 
 ## Bingo Save File Documentation:
 
@@ -62,9 +65,9 @@ This .zip file includes 2 save files that I thought would be nice "starting poin
 
 ## Resources:
 
-**Tak1Bingo Github Repo:** https://github.com/Rinizur/Tak1Bingo
+**Tak1Bingo Download:** https://github.com/Rinizur/Tak1Bingo/archive/refs/heads/main.zip
 
-**TakBingo Zip file:** TO-DO
+**Tak1Bingo Google Drive zip file:** https://drive.google.com/file/d/1b-y2InA6AR3jONsKbDstsi_7jMUTHCck/view?usp=drive_link
 
 **Lockout Live:** https://beta.lockout.live/editor
 
